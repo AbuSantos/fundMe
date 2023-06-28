@@ -93,8 +93,8 @@ contract ERC20 is IERC20 {
     uint public totalSupply;
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance;
-    string public name = "Solidity by Example";
-    string public symbol = "SOLBYEX";
+    string public name = "Bullchord";
+    string public symbol = "BHB";
     uint8 public decimals = 18;
 
     function transfer(address recipient, uint amount) external returns (bool) {
